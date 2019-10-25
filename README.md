@@ -26,5 +26,9 @@
     
 
 7)Final Step : Right click on testNGSwagLabs.xml ->run as ->TestNG Suite
+
+8)Screen shots and HTML reports can be viewed from below location (failed test cases are taken as screen shots)
+
+    C:\Users\manish\git\Sawaglabs2\jtafi18n\TestReport.html
     
     
