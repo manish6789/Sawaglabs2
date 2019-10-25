@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestVendorStageEnv"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="161.523">
+  <properties />
+  
+  
+            <testcase name="testC939932" time="8.936" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939958" time="0.434" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939926" time="17.319" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939922" time="4.346" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939934" time="10.123" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939923" time="4.792" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939924" time="10.130" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939933" time="8.628" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939925" time="14.218" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939931" time="10.747" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939927" time="52.302" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+                <testcase name="testC939928" time="19.548" classname="test.iseries.jdevendorsearch.TestVendorSearch" />
+      
+</testsuite>

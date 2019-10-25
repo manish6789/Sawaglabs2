@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SWAG">
+              <span class="suite-name border-failed">SWAG</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SWAG">
+                    <span>C:\Users\manish\Desktop\Framework\testngSWAGlabs.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SWAG">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SWAG">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SWAG">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SWAG">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SWAG">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SWAG">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SWAG" class="hide-methods failed suite-SWAG"> (hide)</a> <!-- hide-methods failed suite-SWAG -->
+                      <a href="#" panel-name="suite-SWAG" class="show-methods failed suite-SWAG"> (show)</a> <!-- show-methods failed suite-SWAG -->
+                    </span>
+                    <div class="method-list-content failed suite-SWAG">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SWAG" title="test.swag.testcase.SWAGlabs" hash-for-method="problemUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">problemUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SWAG -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SWAG" class="hide-methods passed suite-SWAG"> (hide)</a> <!-- hide-methods passed suite-SWAG -->
+                      <a href="#" panel-name="suite-SWAG" class="show-methods passed suite-SWAG"> (show)</a> <!-- show-methods passed suite-SWAG -->
+                    </span>
+                    <div class="method-list-content passed suite-SWAG">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SWAG" title="test.swag.testcase.SWAGlabs" hash-for-method="invalidPasswordLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">invalidPasswordLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SWAG" title="test.swag.testcase.SWAGlabs" hash-for-method="lockedUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">lockedUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SWAG" title="test.swag.testcase.SWAGlabs" hash-for-method="performanceUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">performanceUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SWAG" title="test.swag.testcase.SWAGlabs" hash-for-method="standardUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">standardUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SWAG -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SWAG" class="panel SWAG">
+          <div class="suite-SWAG-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.swag.testcase.SWAGlabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="problemUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">
+                  </a> <!-- problemUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...) -->
+                  <span class="method-name">problemUserLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface: Username and password do not match any user in this service, password=secret_sauce, ErrorMessageLockedUser=Epic sadface: Sorry, this user has been locked out., StandardUser=standard_user, InvalidPassword=Test1234, lockedUser=locked_out_user, PerformanceUser=performance_glitch_user})</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected condition failed: waiting for visibility of element located by By.cssSelector: [data-test=&apos;error&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at dweb.aut.pages.templates.PageTemplate.waitUntilElementIsVisible(PageTemplate.java:257)
+	at pages.ctis.HomePage.verifyApplicationDisplayedError(HomePage.java:61)
+	at test.swag.testcase.SWAGlabs.problemUserLogin(SWAGlabs.java:81)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SWAG-class-failed -->
+          <div class="suite-SWAG-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.swag.testcase.SWAGlabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">
+                  </a> <!-- invalidPasswordLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...) -->
+                  <span class="method-name">invalidPasswordLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface: Username and password do not match any user in this service, password=secret_sauce, ErrorMessageLockedUser=Epic sadface: Sorry, this user has been locked out., StandardUser=standard_user, InvalidPassword=Test1234, lockedUser=locked_out_user, PerformanceUser=performance_glitch_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lockedUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">
+                  </a> <!-- lockedUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...) -->
+                  <span class="method-name">lockedUserLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface: Username and password do not match any user in this service, password=secret_sauce, ErrorMessageLockedUser=Epic sadface: Sorry, this user has been locked out., StandardUser=standard_user, InvalidPassword=Test1234, lockedUser=locked_out_user, PerformanceUser=performance_glitch_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performanceUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">
+                  </a> <!-- performanceUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...) -->
+                  <span class="method-name">performanceUserLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface: Username and password do not match any user in this service, password=secret_sauce, ErrorMessageLockedUser=Epic sadface: Sorry, this user has been locked out., StandardUser=standard_user, InvalidPassword=Test1234, lockedUser=locked_out_user, PerformanceUser=performance_glitch_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="standardUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)">
+                  </a> <!-- standardUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...) -->
+                  <span class="method-name">standardUserLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface: Username and password do not match any user in this service, password=secret_sauce, ErrorMessageLockedUser=Epic sadface: Sorry, this user has been locked out., StandardUser=standard_user, InvalidPassword=Test1234, lockedUser=locked_out_user, PerformanceUser=performance_glitch_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SWAG-class-passed -->
+        </div> <!-- panel SWAG -->
+        <div panel-name="test-xml-SWAG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\manish\Desktop\Framework\testngSWAGlabs.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SWAG&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;TestSWAG&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;XXXXX &quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;FIREFOX&quot;/&gt;
+    &lt;parameter name=&quot;appURL&quot; value=&quot;https://www.saucedemo.com/index.html&quot;/&gt;
+    &lt;parameter name=&quot;automationKit&quot; value=&quot;selenium&quot;/&gt;
+    &lt;parameter name=&quot;userName&quot; value=&quot;XXXXXX&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.swag.testcase.SWAGlabs&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSWAG --&gt;
+  &lt;test name=&quot;TestSWAG&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;XXXXX &quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;FIREFOX&quot;/&gt;
+    &lt;parameter name=&quot;appURL&quot; value=&quot;https://www.saucedemo.com/index.html&quot;/&gt;
+    &lt;parameter name=&quot;automationKit&quot; value=&quot;selenium&quot;/&gt;
+    &lt;parameter name=&quot;userName&quot; value=&quot;XXXXXX&quot;/&gt;
+  &lt;/test&gt; &lt;!-- TestSWAG --&gt;
+&lt;/suite&gt; &lt;!-- SWAG --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SWAG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SWAG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestSWAG (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestSWAG (0 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SWAG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SWAG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SWAG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SWAG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SWAG');
+function tableData_SWAG() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'problemUserLogin')
+data.setCell(0, 2, 'test.swag.testcase.SWAGlabs')
+data.setCell(0, 3, 24181);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'performanceUserLogin')
+data.setCell(1, 2, 'test.swag.testcase.SWAGlabs')
+data.setCell(1, 3, 13127);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'standardUserLogin')
+data.setCell(2, 2, 'test.swag.testcase.SWAGlabs')
+data.setCell(2, 3, 7129);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalidPasswordLogin')
+data.setCell(3, 2, 'test.swag.testcase.SWAGlabs')
+data.setCell(3, 3, 3506);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'lockedUserLogin')
+data.setCell(4, 2, 'test.swag.testcase.SWAGlabs')
+data.setCell(4, 3, 3409);
+window.suiteTableData['SWAG']= { tableData: data, tableDiv: 'times-div-SWAG'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <div id="times-div-SWAG">
+              </div> <!-- times-div-SWAG -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SWAG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SWAG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SWAG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SWAG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.swag.testcase.SWAGlabs</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite(org.testng.TestRunner@1b80b26c, [Test: "TestSWAG" verbose:1[parameters:password=>XXXXX ,browserName=...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@1b80b26c)</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@1b80b26c, public void test.swag.testcase.SWAGlabs.invalidPasswordLogin(org.tes...)</span>
+                <span class="method-start">2275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</span>
+                <span class="method-start">14607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@1b80b26c, [TestResult name=invalidPasswordLogin status=SUCCESS method=SWAGlabs...)</span>
+                <span class="method-start">18116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@1b80b26c, public void test.swag.testcase.SWAGlabs.lockedUserLogin(org.testng.I...)</span>
+                <span class="method-start">21053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lockedUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</span>
+                <span class="method-start">29382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@1b80b26c, [TestResult name=lockedUserLogin status=SUCCESS method=SWAGlabs.lock...)</span>
+                <span class="method-start">32793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@1b80b26c, public void test.swag.testcase.SWAGlabs.performanceUserLogin(org.tes...)</span>
+                <span class="method-start">35398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">performanceUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</span>
+                <span class="method-start">43054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@1b80b26c, [TestResult name=performanceUserLogin status=SUCCESS method=SWAGlabs...)</span>
+                <span class="method-start">56182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@1b80b26c, public void test.swag.testcase.SWAGlabs.problemUserLogin(org.testng....)</span>
+                <span class="method-start">58648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">problemUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</span>
+                <span class="method-start">67100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@1b80b26c, [TestResult name=problemUserLogin status=FAILURE method=SWAGlabs.pro...)</span>
+                <span class="method-start">91284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@1b80b26c, public void test.swag.testcase.SWAGlabs.standardUserLogin(org.testng...)</span>
+                <span class="method-start">93463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">standardUserLogin(org.testng.TestRunner@1b80b26c, {problemUser=problem_user, ErrorMessageInvalidPassword=Epic sadface:...)</span>
+                <span class="method-start">102286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@1b80b26c, [TestResult name=standardUserLogin status=SUCCESS method=SWAGlabs.st...)</span>
+                <span class="method-start">109416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@1b80b26c)</span>
+                <span class="method-start">111537 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite(org.testng.TestRunner@1b80b26c)</span>
+                <span class="method-start">111773 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

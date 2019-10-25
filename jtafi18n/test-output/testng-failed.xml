@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SWAG]" parallel="tests">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="TestSWAG(failed)" parallel="tests">
+    <parameter name="password" value="XXXXX "/>
+    <parameter name="browserName" value="FIREFOX"/>
+    <parameter name="appURL" value="https://www.saucedemo.com/index.html"/>
+    <parameter name="automationKit" value="selenium"/>
+    <parameter name="userName" value="XXXXXX"/>
+    <classes>
+      <class name="test.swag.testcase.SWAGlabs">
+        <methods>
+          <include name="problemUserLogin" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.swag.testcase.SWAGlabs -->
+    </classes>
+  </test> <!-- TestSWAG(failed) -->
+</suite> <!-- Failed suite [SWAG] -->

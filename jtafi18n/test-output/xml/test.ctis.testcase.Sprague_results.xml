@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCTIS"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="621.676">
+  <properties />
+  
+  
+            <testcase name="ctisTest" time="621.676" classname="test.ctis.testcase.Sprague" />
+      
+</testsuite>
