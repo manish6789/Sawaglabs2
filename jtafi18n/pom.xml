@@ -13,7 +13,7 @@
 		<testNg.version>6.11</testNg.version>
 		<extent.vesion>3.1.3</extent.vesion>
 		<appium.version>5.0.4</appium.version>
-		<gson.version>2.8.2</gson.version>
+		<gson.version>2.8.9</gson.version>
 	</properties>
 
 	<dependencies>
